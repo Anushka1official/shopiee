@@ -1,2 +1,0 @@
-# shopiee
-shopiee online shopping
