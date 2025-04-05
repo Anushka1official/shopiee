@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
+
+    <script defer src="login.js"></script>
+    
+</head>
+<body>
+ 
+    <header>
+        <div class="logo">
+
+            <img src="images/logo.png" alt="Logo">
+            <a href="index.html">
+                <h1 style="display: inline; ">Shopi</h1><h1 style="display: inline; color: rgb(245, 153, 106);">ee</h1>
+            </a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products..." class="searchBar">
+            <img src="images/searchicon.png " style="width: 20px; height: 20px;" class="search-icon">
+            
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li class="activeList"><a class="activeLink" href="login.html">Log/Reg</a></li>
+
+            </ul>
+
+
+            <ul>
+                <li class="dropDown">
+                    <a>☰</a>
+                    <ul class="dropDownMenuList">
+                        <li><a href="index.html">Home  </a></li>
+                        <li><a href="cart.html">Cart (<span id="cart-count">0</span>) </a></li>
+                        <li><a href="aboutUs.html">About Us  </a></li>
+                        <li><a href="login.html">Log/Reg</a></li>
+    
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+
+
+       
+    </header>
+
+    <section class="auth">
+        <h2 id="auth-title">Login</h2>
+
+        <div id="login-form">
+            <input type="email" id="login-email" placeholder="Enter Email" required>
+            <input type="password" id="login-password" placeholder="Enter Password" required>
+            <button onclick="login()">Login</button>
+            <p>Don't have an account? <a href="#" onclick="toggleAuth()">Register</a></p>
+        </div>
+
+        <div id="register-form" style="display:none;">
+            <input type="text" id="register-name" placeholder="Enter Name" required>
+            <input type="email" id="register-email" placeholder="Enter Email" required>
+            <input type="password" id="register-password" placeholder="Enter Password" required>
+            <button onclick="register()">Register</button>
+            <p>Already have an account? <a href="#" onclick="toggleAuth()">Login</a></p>
+        </div>
+    </section>
+
+   <footer style=" right: 0 ; left: 0;">
+    <div class="footerGrid">
+        <div class="footerGridItems">
+            <p>
+                📞<b style="color: rgb(113, 112, 112);">Call Us</b><br>
+            </p>
+            <p>Monday – Friday: 7 AM – 11 PM (IST)<br></p>
+            <p><a href="tel:+94115689456">+94 855 568 777</a></p>
+
+        </div>
+        <div class="footerGridItems">
+            <p>📩 <b style="color: rgb(113, 112, 112);">Email Us</b><br></p>
+
+            <p><a href="mailto:support@shopiee.com">support@shopiee.com</a></p>
+
+        </div>
+        <div class="footerGridItems">
+            <p>📲 <b style="color: rgb(113, 112, 112);">Follow Us on Social Media</b><br></p>
+            <p><a href="https://www.instagram.com/Shopiee" target="_blank">Instagram: @Shopiee</a></p>
+            <p><a href="https://twitter.com/Shopiee" target="_blank">Twitter/X: @Shopiee</a></p>
+            <p><a href="https://www.facebook.com/Shopiee" target="_blank">Facebook:@Shopiee</a></p>
+
+
+        </div>
+    </div>
+    <p style="padding: 0px 30px 10px;font-size: 13px; text-align: center;"> © 2025 Shopiee. All Rights Reserved.</p>
+
+
+</footer>
+
+</body>
+</html>
