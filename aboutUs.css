@@ -1,0 +1,24 @@
+
+.activeLink{
+    color: black;
+    
+}
+
+nav ul .activeList  {
+    background-color:rgb(245, 153, 106);
+    cursor: pointer;
+    color: black;
+}
+
+nav ul .activeList:hover  {
+    background-color:rgb(245, 153, 106);
+    cursor: pointer;
+    color: white;
+}
+
+
+.mainContent{
+padding:15% ;
+    padding-top: 100px;
+   
+}
