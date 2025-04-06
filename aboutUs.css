@@ -5,13 +5,13 @@
 }
 
 nav ul .activeList  {
-    background-color:rgb(245, 153, 106);
+    background-color:#e4bac2;
     cursor: pointer;
     color: black;
 }
 
 nav ul .activeList:hover  {
-    background-color:rgb(245, 153, 106);
+    background-color:#e4bac2;
     cursor: pointer;
     color: white;
 }
